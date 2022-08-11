@@ -1,0 +1,90 @@
+body.dark-mode {
+
+  tr {
+    color: white !important;
+  }
+
+  .team-row {
+    border-left-color: #4723D9 !important;
+  }
+}
+
+body.light-mode {
+  .table {
+    background-color: white;
+  }
+}
+
+#team-form {
+  transition: display 1s;
+}
+
+.table {
+  //border-collapse: separate;
+  //border-spacing: 0 10px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 5px 7px 10px 2px;
+
+  thead {
+    background: #4723D9;
+    color: white;
+
+    :first-child {
+      border-top-left-radius: 10px !important;
+    }
+
+    :last-child {
+      border-top-right-radius: 10px !important;
+    }
+  }
+
+  tr {
+    td {
+      vertical-align: middle;
+    }
+  }
+}
+
+
+.actions-box {
+  .action-link {
+    font-size: 1.3rem;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .bx-trash {
+    color: red !important;
+  }
+
+  .bx-card {
+    color: green !important;
+  }
+
+
+
+}
+
+.team-row {
+  padding: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-left-color: #4723D9;
+}
+
+.border-div {
+  border-radius: 20px !important;
+}
+
+
+.showDiv {
+  animation: 3s linear;
+}
+
+.social-icons{
+  width: 20px;
+  height: 20px;
+}
+
+

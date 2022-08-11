@@ -1,0 +1,20 @@
+body.dark-mode{
+  input{
+    background-color: #1a1919;
+    color: white!important;
+    transition:background-color 0.9s;
+  }
+  input:focus{
+    background-color:rgba(26, 25, 25, 0.6) !important ;
+  }
+}
+
+body.light-mode{
+
+}
+
+input{
+  border: 1px solid #4723D9!important;
+}
+
+

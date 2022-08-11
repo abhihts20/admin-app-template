@@ -1,0 +1,32 @@
+body.dark-mode{
+ .modal-content{
+   background-color: #1a1919!important;
+   color: white!important;
+ }
+  .close-btn{
+    color: white!important;
+  }
+}
+
+body.light-mode{
+
+}
+.modal{
+  /*box-shadow: 0 4px 8px 0 rgba(200,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;*/
+  -webkit-animation-name: animatetop!important;
+  -webkit-animation-duration: 0.4s!important;
+  animation-name: animateTop!important;
+  animation-duration: 0.4s!important;
+  background-color: rgb(0,0,0) !important; /* Fallback color */
+  background-color: rgba(0,0,0,0.4) !important; /* Black w/ opacity */
+}
+
+@-webkit-keyframes animateTop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animateTop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
